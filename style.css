@@ -1,0 +1,454 @@
+/* Importing Rancho Google font for logo design */
+
+@import url('https://fonts.googleapis.com/css2?family=Rancho&display=swap');
+
+
+* {
+	margin: 0;
+	padding: 0;
+	font-family: sans-serif;
+	box-sizing: border-box;
+}
+
+body {
+	background: #ffb6c1;
+	font-size: 16px;
+	line-height: 1.5;
+}
+
+@media (max-width: 991px) {
+	body {
+		font-size: 11px;
+	}
+}
+
+/* Styling Header */
+
+header {
+	position: fixed;
+	top: 0;
+	left: 0;
+	width: 100%;
+	z-index: 1000;
+}
+
+/* Styling blue note on the top */
+
+header .note {
+	position: relative;
+	width: 100%;
+	background: #0178bd;
+	padding: 5px 15px;
+}
+
+header .note p {
+	font-family: consolas;
+	letter-spacing: 1px;
+	text-align: center;
+	color: #fff;
+}
+
+header .note p a {
+	font-family: consolas;
+	letter-spacing: 1px;
+	color: #fff;
+}
+
+header .note p a:hover {
+	color: blue;
+}
+
+/* Styling (Black) Navigation Bar */
+
+.navbar {
+	position: relative;
+	width: 100%;
+	margin: 0 auto;
+	padding: 15px 100px;
+	background: #000;
+	box-sizing: border-box;
+	z-index: 100;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+@media (max-width: 991px) {
+	.navbar {
+		display: flex;
+		justify-content: center;
+		align-items: center;
+	}
+}
+
+.togglebar {
+	position: relative;
+	opacity: 0;
+	visibility: hidden;
+}
+
+.togglebar i {
+	color: #fff;
+	font-size: 24px;
+	cursor: pointer;
+	padding: 10px 30px;
+}
+
+@media (max-width: 991px) {
+	.togglebar {
+		opacity: 1;
+		visibility: visible;
+	}
+}
+
+/* Styling Brand Logo (Name) */
+
+#brandlogo {
+	display: inline-block;
+	vertical-align: middle;
+}
+
+#brandlogo a {
+	color: #f4bc1c;
+	text-decoration: none;
+	font-family: 'Rancho', cursive;
+	font-size: 30px;
+}
+
+
+/* Styling Navigation Links in the navigation Bar */
+
+.navigation {
+	position: relative;
+	display: flex;
+	justify-content: flex-end;
+	align-items: center;
+	width: 100%;
+	opacity: 1;
+}
+
+
+.navigation a {
+	color: #fff;
+	text-decoration: none;
+	font-size: 15px;
+}
+
+.navigation a:hover {
+	color: gray;
+}
+
+.nav-items {
+	padding: 5px 20px;
+}
+
+
+.nav-items input {
+	padding: 6px;
+	outline: none;
+	width: 200px;
+	font-size: 15px;
+	border: 1px solid #999;
+	border-radius: 4px;
+}
+
+.sign-in {
+	border: 1px solid #fff;
+	color: #fff;
+	padding: 6px 12px;
+	text-transform: uppercase;
+	text-decoration: none;
+	text-align: center;
+	letter-spacing: 2px;
+	font-weight: 500;
+}
+
+.sign-in:hover {
+	background: #fff;
+	color: #000;
+}
+
+@media (max-width: 991px) {
+	.navigation {
+		visibility: hidden;
+		opacity: 0;
+	}
+}
+
+/* Header Styling Ends */
+
+
+/* Styling the Container */
+
+.container {
+	background: #fff;
+
+/*	Used it for reference only
+height: 3300px;
+*/
+	max-height: 100%;
+	box-sizing: border-box;
+	padding: 60px 100px 15px;
+	margin: 150px 120px 30px;
+	border-radius: 6px;
+}
+
+
+@media (max-width: 991px) {
+	.container {
+		margin: 160px 40px 30px;
+		padding: 30px 40px 30px;
+	}
+}
+
+/* Styling Heading for Headlines */
+
+.heading {
+	color: #000;
+	font-size: 24px;
+	font-family: sans-serif;
+	font-weight: normal;
+	letter-spacing: 3px;
+	margin-bottom: 30px;
+	text-align: left;
+}
+
+
+@media (max-width: 991px) {
+	.heading {
+		font-size: 15px;
+	}	
+}
+
+/* Styling Heading for long paragraphs */
+
+.text {
+	color: #000;
+	font-size: 18px;
+	font-weight: normal;
+	letter-spacing: 1px;
+	text-align: left;
+}
+
+@media (max-width: 991px) {
+	.text {
+		font-size: 12px;
+		line-height: 1.3;
+		word-wrap: break-word;
+	}	
+}
+
+/* Styling  About Section */
+
+.about {
+	position: relative;
+	width: 100%;
+	display: flex;
+	z-index: 1;
+	margin-top: 50px;
+
+}
+
+.about .contentbx {
+	background: #fff;
+	width: 50%;
+	margin-top: 20px;
+	padding-right: 10px;
+}
+
+.about .imgbx {
+	width: 50%;
+	margin-top: 10px;
+}
+
+.about .imgbx img {
+	width: 525px;
+	height: 276px;
+	max-width: 100%;
+}
+
+
+.btn {
+	border: 1px solid #000;
+	color: #000;
+	margin-top: 20px;
+	padding: 10px 30px;
+	font-size: 15px;
+	text-transform: uppercase;
+	text-decoration: none;
+	text-align: center;
+	letter-spacing: 2px;
+	font-weight: 500;
+}
+
+.btn:hover {
+	background: #0178bd;
+	color: #fff;
+	border: none;
+}
+
+
+@media (max-width: 991px) {
+	.about {
+		flex-direction: column-reverse;
+		margin-top: 0;
+	}
+
+	.about .imgbx, .about .contentbx {
+		width: 100%;
+	}
+
+	.about .imgbx img {
+		width: 218px;
+		height: 114px;
+		margin-top: 10px;
+	}
+
+	.btn {
+		padding: 6px 12px;
+		font-size: 11px;
+	}
+}
+
+/* Styling Special Deals Section */
+
+.specials {
+	margin: 30px auto;
+}
+
+
+.best-deals {
+	margin: 30px auto;
+}
+
+.grid-container {
+	display: grid;
+	grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+	grid-column-gap: 90px;
+	grid-row-gap: 40px;
+	justify-content: center;
+	align-items: center;
+
+}
+
+.grid-container img {
+	height: 300px;
+	width: 300px;
+	cursor: pointer;
+}
+
+
+
+@media (max-width: 991px) {
+	.grid-container img {
+		width: 200px;
+		height: 200px;
+	}
+}
+
+/* Styling Product Information Tab */
+
+.info a {
+	font-size: 18px;
+	font-family: sans-serif;
+	font-weight: 600;
+	color: black;
+	text-decoration: none;
+}
+
+.info a:hover {
+	color: blue;
+}
+
+.info p {
+	font-size: 16px;
+	font-weight: 600;
+	color: red;
+}
+
+.info p span {
+	color: green;
+	font-size: 13px;
+}
+
+.info p span strike {
+	color: gray;
+	font-size: 14px;
+	font-weight: normal;
+}
+
+@media (max-width: 991px) {
+	.info a {
+		font-size: 14px;
+	}
+
+	.info p {
+		font-size: 13px;
+	}
+}
+
+/* Container Styling Ends */
+
+/* This is Footer */
+
+footer {
+	background: #000;
+	padding: 25px 100px;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+footer p {
+	color: #fff;
+	text-align: center;
+	letter-spacing: 1.8px;
+	font-family: sans-serif;
+	font-size: 15px;
+}
+
+footer .social {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+/* Styling Social Media Icons */
+
+
+footer .social li {
+	list-style: none;
+}
+
+footer .social li a {
+	text-decoration: none;
+	color: #fff;
+	padding: 8px 15px;
+}
+
+footer .social li a i {
+	color: #fff;
+	font-size: 24px;
+}
+
+footer .social li a i:hover {
+	color: gray;
+}
+
+@media (max-width: 991px) {
+	footer {
+		padding: 12px 80px;
+	}
+
+	footer p {
+		font-size: 12px;
+	}
+
+	footer .social li a {
+		padding: 6px 10px;
+	}
+}
+
+/* Footer Styling Ends */
+
+/* End of CSS Styling */
