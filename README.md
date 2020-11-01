@@ -1,6 +1,6 @@
 # Assignment-1
 
-##Front End Assignment
+## Front End Assignment
 
 This Assignment uses:
 
@@ -12,3 +12,4 @@ This Assignment uses:
 
 Check out live website here:
 
+https://spiritual-coder-assignment.netlify.app/
