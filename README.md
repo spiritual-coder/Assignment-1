@@ -1,6 +1,6 @@
-# Assignment-1
+# Khareedo.com
 
-## Front End Assignment
+## a SPA based on HTML CSS
 
 This Assignment uses:
 
